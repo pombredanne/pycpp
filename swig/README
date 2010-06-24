@@ -1,0 +1,18 @@
+Installing SWIG
+
+Download and extract SWIG, then go to extracted folder.
+
+Linux:
+
+    $ ./configure
+    $ make
+    $ sudo make install
+
+Mac (assuming bash):
+
+    $ export CFLAGS="-arch x86_64"
+    $ export CPPFLAGS="-arch x86_64"
+    $ ./configure
+    $ make
+    $ sudo make install
+
