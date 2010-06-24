@@ -1,0 +1,10 @@
+Run make in this directory.  To test, launch the python shell and do
+
+>>> import example
+>>> example.fact(5)
+120
+>>> example.my_mod(7,3)
+1
+>>> example.get_time()
+'Wed Jun 23 21:16:12 2010\n'
+
