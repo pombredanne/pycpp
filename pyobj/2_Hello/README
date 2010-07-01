@@ -1,0 +1,13 @@
+Slightly more useful example.
+
+Install like any other python package.
+
+    $ sudo python setup.py install
+
+Test
+
+    >>> from dsa_hello import *
+    >>> a  = (getnone(), helloworld(), five(), nameage('David', 33), fs(3.14, 'Pi'))
+    >>> a
+    (None, 'Hello World!', 5, 'Hello David, you are 33 years old.', (3.1400001049041748, 'Pi'))
+    >>>
