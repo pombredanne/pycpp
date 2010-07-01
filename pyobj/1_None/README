@@ -1,0 +1,11 @@
+This is the simplest extension.  It returns None.
+
+Install like any other python package.
+
+    $ sudo python setup.py install
+
+Test
+
+    >>> import dsa_nothing
+    >>> print dsa_nothing.getnone()
+    None
