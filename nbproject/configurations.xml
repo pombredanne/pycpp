@@ -2,9 +2,17 @@
 <configurationDescriptor version="69">
   <logicalFolder name="root" displayName="root" projectFiles="true">
     <df name="pycpp" root=".">
+      <df name="pyobj">
+        <df name="1_None" kind="SOURCE_LOGICAL_FOLDER">
+          <in>none_module.c</in>
+        </df>
+        <df name="2_Hello" kind="SOURCE_LOGICAL_FOLDER">
+        </df>
+      </df>
       <df name="swig" kind="SOURCE_LOGICAL_FOLDER">
         <df name="1_example" kind="SOURCE_LOGICAL_FOLDER">
           <in>example.c</in>
+          <in>example.i</in>
         </df>
       </df>
     </df>
@@ -33,6 +41,11 @@
           <buildCommand>$(MAKE) -f Makefile</buildCommand>
           <cleanCommand>$(MAKE) -f Makefile clean</cleanCommand>
           <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem>/usr/include/python2.6</pElem>
+            </incDir>
+          </cTool>
         </makeTool>
       </makefileType>
     </conf>
